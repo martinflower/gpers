@@ -3,14 +3,13 @@ object dmTechno: TdmTechno
   Height = 418
   Width = 724
   object ADOConnection1: TADOConnection
-    Connected = True
     ConnectionString = 
       'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Program Files\Vi' +
-      'sualpaie\dossiers\paie pts.mdb;Persist Security Info=False'
+      'sualpaie\dossiers\paie pts.mdb;Persist Security Info=False;'
     LoginPrompt = False
     Mode = cmShareDenyNone
     Provider = 'Microsoft.Jet.OLEDB.4.0'
-    Left = 192
+    Left = 128
     Top = 56
   end
   object DataSource1: TDataSource
@@ -34,5 +33,9 @@ object dmTechno: TdmTechno
     DataSet = ADODataSet2
     Left = 312
     Top = 216
+  end
+  object StoredProc1: TStoredProc
+    Left = 216
+    Top = 72
   end
 end

@@ -3,7 +3,7 @@ unit uDMTechno;
 interface
 
 uses
-  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB;
+  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB, Bde.DBTables;
 
 type
   TdmTechno = class(TDataModule)
@@ -12,6 +12,7 @@ type
     ADODataSet1: TADODataSet;
     ADODataSet2: TADODataSet;
     DataSource2: TDataSource;
+    StoredProc1: TStoredProc;
   private
     { Déclarations privées }
   public
