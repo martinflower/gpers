@@ -1,0 +1,19 @@
+Git clone https://github.com/martinflower/gpers.git 
+    Pour dupliquer un repertoire depuis l'internet vers l'ordinateur courant
+
+git add .
+    Pour ajouter les modifications sur le projet.
+
+git commit -m "Commentaire"
+    ajoute un commentaire a vos modifications
+
+git push 
+    permet d'envoyer les fichiers ajoutés vers le repertoire sur internet.
+
+git pull
+    permet de synchroniser le projet de l'ordinateur avec les dernieres modifications d'internet.
+
+
+pour configurer le git 
+git config user.email "votre email"
+git config user.name "votre nom"
