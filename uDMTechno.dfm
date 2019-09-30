@@ -34,8 +34,4 @@ object dmTechno: TdmTechno
     Left = 312
     Top = 216
   end
-  object StoredProc1: TStoredProc
-    Left = 216
-    Top = 72
-  end
 end
